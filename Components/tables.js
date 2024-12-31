@@ -10,6 +10,10 @@ function Tables() {
             ['Sricharan', '22MH1A4223', '9876543210', 'CSE', 'ACET'],
             ['Charan Raju', '22MH1A4250', '9876543210', 'AI&ML', 'ACET'],
             ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
+            ['Praveen Reddy', '22MH1A4220', '9876543210', 'AI&ML', 'ACET'],
+            ['Sricharan', '22MH1A4223', '9876543210', 'CSE', 'ACET'],
+            ['Charan Raju', '22MH1A4250', '9876543210', 'AI&ML', 'ACET'],
+            ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
         ],
     }
 
@@ -23,10 +27,17 @@ function Tables() {
                             widthArr={[130, 120, 120, 120, 120]}
                             style={styles.head}
                             textStyle={styles.inside_text_1} />
-                        <Rows data={data.tableData}
-                            widthArr={[130, 120, 120, 120, 120]}
-                            style={styles.data}
-                            textStyle={styles.inside_text_2} />
+                        {
+                            data.tableData.map((rowData, index) => (
+                                <Row
+                                    key={index}
+                                    data={rowData}
+                                    widthArr={[130, 120, 120, 120, 120]}
+                                    style={[styles.data, index % 2 && { backgroundColor: 'lightgrey' }]}
+                                    textStyle={styles.inside_text_2}
+                                />
+                            ))
+                        }
                     </Table>
                 </View>
             </ScrollView>
