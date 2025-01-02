@@ -29,7 +29,8 @@ function Tables() {
                             textStyle={styles.inside_text_1}  />
 
                         <Rows data={data.tableData} widthArr={[130, 120, 120, 120, 120]} textStyle = {{textAlign : 'center'}} 
-                            style = {{height: 30}}/>
+                            style={styles.data}
+                         />
 
                         {/* {
                             data.tableData.map((rowData, index) => (
