@@ -26,9 +26,10 @@ function Tables() {
                         <Row data={data.tableHead}
                             widthArr={[130, 120, 120, 120, 120]}
                             style={styles.head}
-                            textStyle={styles.inside_text_1} />
+                            textStyle={styles.inside_text_1}  />
 
-                        <Rows data={data.tableData}/>
+                        <Rows data={data.tableData} widthArr={[130, 120, 120, 120, 120]} textStyle = {{textAlign : 'center'}} 
+                            style = {{height: 30}}/>
 
                         {/* {
                             data.tableData.map((rowData, index) => (
