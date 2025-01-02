@@ -27,7 +27,10 @@ function Tables() {
                             widthArr={[130, 120, 120, 120, 120]}
                             style={styles.head}
                             textStyle={styles.inside_text_1} />
-                        {
+
+                        <Rows data={data.tableData}/>
+
+                        {/* {
                             data.tableData.map((rowData, index) => (
                                 <Row
                                     key={index}
@@ -37,7 +40,7 @@ function Tables() {
                                     textStyle={styles.inside_text_2}
                                 />
                             ))
-                        }
+                        } */}
                     </Table>
                 </View>
             </ScrollView>
