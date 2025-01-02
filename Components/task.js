@@ -33,6 +33,14 @@ const data = [
         college: 'ACET',
         email: '22mh1a4254@acoe.edu.in'
     },
+    {
+        name: 'Kesava',
+        roll: '21A91A04L6',
+        mobile: '9876543210',
+        branch: 'AI&ML',
+        college: 'AEC',
+        email: '22mh1a4254@acoe.edu.in'
+    }
 ]
 
 function Card() {
@@ -44,7 +52,7 @@ function Card() {
                         <View style={styles.card} key = {key}>
 
                             <View style={styles.photo}>
-                                <Image source={{ uri: `https://info.aec.edu.in/ACET/StudentPhotos/22MH1A4223.jpg` }} style={{ height: "100%", width: "100%", borderRadius: 100 }} />
+                                <Image source={{ uri: `https://info.aec.edu.in/${item.college}/StudentPhotos/${item.roll}.jpg` }} style={{ height: "100%", width: "100%", borderRadius: 100 }} />
                             </View>
 
                             <View style={styles.details}>

@@ -14,37 +14,42 @@ function Tables() {
             ['Sricharan', '22MH1A4223', '9876543210', 'CSE', 'ACET'],
             ['Charan Raju', '22MH1A4250', '9876543210', 'AI&ML', 'ACET'],
             ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
+            ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
+            ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
+            ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
+            ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
         ],
     }
 
-
     return (
         <>
-            <ScrollView horizontal={true}>
-                <View style={styles.container}>
-                    <Table borderStyle={{ borderWidth: 1, borderColor: 'black' }}>
-                        <Row data={data.tableHead}
-                            widthArr={[130, 120, 120, 120, 120]}
-                            style={styles.head}
-                            textStyle={styles.inside_text_1}  />
+            <ScrollView horizontal={true} showsHorizontalScrollIndicator={true} >
+                <ScrollView vertical={true} showsVerticalScrollIndicator={true} style={{height: 'auto', top: 30}}>
+                    <View style={styles.container}>
+                        <Table borderStyle={{ borderWidth: 1, borderColor: 'black' }}>
+                            <Row data={data.tableHead}
+                                widthArr={[130, 120, 120, 120, 120]}
+                                style={styles.head}
+                                textStyle={styles.inside_text_1}  />
 
-                        <Rows data={data.tableData} widthArr={[130, 120, 120, 120, 120]} textStyle = {{textAlign : 'center'}} 
-                            style={styles.data}
-                         />
+                            <Rows data={data.tableData} widthArr={[130, 120, 120, 120, 120]} textStyle = {{textAlign : 'center'}} 
+                                style={styles.data}
+                            />
 
-                        {/* {
-                            data.tableData.map((rowData, index) => (
-                                <Row
-                                    key={index}
-                                    data={rowData}
-                                    widthArr={[130, 120, 120, 120, 120]}
-                                    style={[styles.data, index % 2 && { backgroundColor: 'lightgrey' }]}
-                                    textStyle={styles.inside_text_2}
-                                />
-                            ))
-                        } */}
-                    </Table>
-                </View>
+                            {
+                                data.tableData.map((rowData, index) => (
+                                    <Row
+                                        key={index}
+                                        data={rowData}
+                                        widthArr={[130, 120, 120, 120, 120]}
+                                        style={[styles.data, index % 2 && { backgroundColor: 'lightgrey' }]}
+                                        textStyle={styles.inside_text_2}
+                                    />
+                                ))
+                            }
+                        </Table>
+                    </View>
+                </ScrollView>
             </ScrollView>
         </>
     )
