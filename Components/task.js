@@ -5,40 +5,40 @@ const data = [
         name: 'Praveen Reddy',
         roll: '22MH1A4220',
         mobile: '9876543210',
-        branch: 'AI&ML',
         college: 'ACET',
+        branch: 'AI&ML',
         email: '22mh1a4220@acoe.edu.in'
     },
     {
         name: 'Sricharan',
         roll: '22MH1A4223',
         mobile: '9876543210',
-        branch: 'CSE',
         college: 'ACET',
+        branch: 'CSE',
         email: '22mh1a4223@acoe.edu.in'
     },
     {
         name: 'Charan Raju',
         roll: '22MH1A4250',
         mobile: '9876543210',
-        branch: 'AI&ML',
         college: 'ACET',
+        branch: 'AI&ML',
         email: '22mh1a4250@acoe.edu.in'
     },
     {
         name: 'Karthik',
         roll: '22MH1A4254',
         mobile: '9876543210',
-        branch: 'ECE',
         college: 'ACET',
+        branch: 'ECE',
         email: '22mh1a4254@acoe.edu.in'
     },
     {
         name: 'Kesava',
         roll: '21A91A04L6',
         mobile: '9876543210',
-        branch: 'AI&ML',
         college: 'AEC',
+        branch: 'AI&ML',
         email: '22mh1a4254@acoe.edu.in'
     }
 ]
