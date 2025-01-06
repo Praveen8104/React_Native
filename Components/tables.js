@@ -6,7 +6,7 @@ function Tables() {
     const data = {
         tableHead: ['Name', 'Roll', 'Mobile', 'Branch', 'College'],
         tableData: [
-            ['Praveen Reddy', '22MH1A4220', '9876543210', 'AI&ML', 'ACET'],
+            ['Praveen Reddy', '22MH1A4220', '9876543210', 'AI&ML', 'ACOE'],
             ['Sricharan', '22MH1A4223', '9876543210', 'CSE', 'ACET'],
             ['Charan Raju', '22MH1A4250', '9876543210', 'AI&ML', 'ACET'],
             ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
