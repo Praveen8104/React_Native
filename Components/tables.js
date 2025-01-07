@@ -16,8 +16,6 @@ function Tables() {
             ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
             ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
             ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
-            ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
-            ['Karthik', '22MH1A4254', '9876543210', 'ECE', 'ACET'],
         ],
     }
 
