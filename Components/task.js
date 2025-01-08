@@ -33,14 +33,6 @@ const data = [
         branch: 'ECE',
         email: '22mh1a4254@acoe.edu.in'
     },
-    {
-        name: 'Kesava',
-        roll: '21A91A04L6',
-        mobile: '9876543210',
-        college: 'AEC',
-        branch: 'AI&ML',
-        email: '22mh1a4254@acoe.edu.in'
-    }
 ]
 
 function Card() {
