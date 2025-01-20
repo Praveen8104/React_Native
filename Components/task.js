@@ -4,7 +4,7 @@ const data = [
     {
         name: 'Praveen Reddy',
         roll: '22MH1A4220',
-        mobile: '9876543210',
+        mobile: '7997442758',
         college: 'ACET',
         branch: 'AI&ML',
         email: '22mh1a4220@acoe.edu.in'
